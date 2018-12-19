@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "open editor",
+        "description": "",
+        "id": "as-a-user-i-want-to-practice-cucumber-with-java;open-editor",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5231658260,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open albelli website",
+            "match": {
+              "location": "test2.i_open_albelli_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 138226,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on one of the buttons",
+            "match": {
+              "location": "test2.i_click_on_one_of_the_buttons()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2315490900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "something is visible",
+            "match": {
+              "location": "test2.something_is_visible()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "as a user I want to practice cucumber with java",
+    "description": "",
+    "id": "as-a-user-i-want-to-practice-cucumber-with-java",
+    "keyword": "Feature",
+    "uri": "src/test/resources/test2.feature",
+    "tags": []
+  }
+]

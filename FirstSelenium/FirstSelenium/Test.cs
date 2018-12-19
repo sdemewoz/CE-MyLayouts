@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Firefox;
@@ -41,7 +36,7 @@ namespace FirstSelenium
         public void SearchAlbelli()
         {
             string searchText = "albelli";
-            driver.FindElement(By.ClassName("gsfi")).SendKeys(searchText);
+            driver.FindElement(By.Name("q")).SendKeys(searchText);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(30);
             //driver.FindElement(By.Name("btnK")).Click(); //error b/c it is not clickable. dont know why
             //press enter to search
