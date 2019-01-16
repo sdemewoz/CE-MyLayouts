@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae577414-f5aa-4550-8f3c-602acbbfb7bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../OnlineEditor/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineEditor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineEditor/src/test/java/bindings/test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineEditor/src/test/java/runners/MyRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineEditor/src/test/java/runners/pageobject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OnlineEditor/src/test/resources/test2.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConditionHandling/IfElseIf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConditionHandling/ecercise20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConditionHandling/exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConditionHandling/exercise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ConditionHandling/run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constructor/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Constructor/RUN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java/Test1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodExercise/Testing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodExercise/exercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodExercise/result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/inputFromUser/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstSelenium/.vs/FirstSelenium/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/.vs/FirstSelenium/v15/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/bin/Debug/FirstSelenium.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/bin/Debug/FirstSelenium.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/bin/Debug/FirstSelenium.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/bin/Debug/FirstSelenium.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/bin/Debug/nunit_random_seed.tmp" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/bin/Debug/nunit_random_seed.tmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/obj/Debug/FirstSelenium.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/obj/Debug/FirstSelenium.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/obj/Debug/FirstSelenium.csprojResolveAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/obj/Debug/FirstSelenium.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/obj/Debug/FirstSelenium.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/obj/Debug/FirstSelenium.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../FirstSelenium/FirstSelenium/obj/Debug/FirstSelenium.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="ae577414-f5aa-4550-8f3c-602acbbfb7bb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,20 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainPackage/subPackage1/Test1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/mainPackage/subPackage1/Test2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -243,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545237125982" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545237131644" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -388,12 +359,12 @@
       <workItem from="1544558318572" duration="5472000" />
       <workItem from="1544954279753" duration="24338000" />
       <workItem from="1545207953397" duration="66000" />
-      <workItem from="1545235501019" duration="763000" />
+      <workItem from="1545235501019" duration="1257000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38738000" />
+    <option name="totallyTimeSpent" value="39232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -547,17 +518,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mainPackage/subPackage1/Test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/mainPackage/subPackage1/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainPackage/subPackage1/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

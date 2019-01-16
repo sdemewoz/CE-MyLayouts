@@ -42,6 +42,12 @@ C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\bin\Debug\nunit.fr
 C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\bin\Debug\WebDriver.xml
 C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\obj\Debug\FirstSelenium.dll
 C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\obj\Debug\FirstSelenium.pdb
+<<<<<<< HEAD
 C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\obj\Debug\FirstSelenium.csprojAssemblyReference.cache
 C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\obj\Debug\FirstSelenium.csproj.CoreCompileInputs.cache
 C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\obj\Debug\FirstSelenium.csproj.CopyComplete
+=======
+C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\obj\Debug\FirstSelenium.csproj.CoreCompileInputs.cache
+C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\obj\Debug\FirstSelenium.csproj.CopyComplete
+C:\GitRepositories\MyOtherProject\FirstSelenium\FirstSelenium\obj\Debug\FirstSelenium.csprojAssemblyReference.cache
+>>>>>>> fa6b5f5e188c3fdd16f5fb99cf0cf389302adf09
