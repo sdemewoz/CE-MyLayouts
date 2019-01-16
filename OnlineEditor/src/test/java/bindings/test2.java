@@ -5,21 +5,20 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.util.concurrent.TimeUnit;
-import runners.pageobject;
 
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class test2 {
 
     WebDriver driver;
-    pageobject obj = new pageobject();
-
 
     public void LoginIn(String username, String password) throws InterruptedException {
 
@@ -35,7 +34,6 @@ public class test2 {
         driver.findElement(By.id("Password")).sendKeys(password);
         driver.findElement(By.id("loginButton")).click();
     }
-
 
     @Given("^I open albelli website$")
     public void i_open_albelli_website() throws Exception {
@@ -56,12 +54,26 @@ public class test2 {
         driver.findElement(By.id("photoCoverNo")).click();
         driver.findElement(By.id("layflatNo")).click();
         driver.findElement(By.id("upsellConfirmationButton")).click();
+
+         Thread.sleep(1000);
+//        WebDriverWait wait =  new WebDriverWait(driver, 1000);
+//
+//        WebElement albelli;
+//        albelli= wait.until(ExpectedConditions.(By.id("addPhotoToGalleryButton")));
+
+        WebElement button = driver.findElement(By.cssSelector("div[class*='close icon-exit']"));
+        Actions action = new Actions(driver);
+        action.moveToElement(button).click().build().perform();
+
+//        String pseudo = ((JavascriptExecutor)driver)
+//                .executeScript("return window.getComputedStyle(arguments[0], ':before').getPropertyValue('icon-exit');",button).toString();
+//       System.out.println(pseudo);
     }
 
     @Then("^something is visible$")
     public void something_is_visible() throws Exception {
         WebElement verify = driver.findElement(By.id("addPhotoToGalleryButton"));
         Assert.assertTrue("Button is not enabled", verify.isEnabled());
-        driver.close();
+        //driver.close();
     }
 }
