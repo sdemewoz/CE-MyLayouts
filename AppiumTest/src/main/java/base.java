@@ -12,8 +12,8 @@ public class base {
         AndroidDriver driver;
         //Launching apps
         File appDir = new File("src");
-        File app = new File(appDir, "ApiDemos-debug.apk");
-        //File app = new File(appDir, "release-4.5.4.apk");
+        //File app = new File(appDir, "ApiDemos-debug.apk");
+        File app = new File(appDir, "release-4.5.4.apk"); //get the latest
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 2 XL");
