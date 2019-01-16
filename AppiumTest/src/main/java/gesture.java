@@ -29,6 +29,6 @@ public class gesture extends base {
         t.longPress(longPressOptions().withElement(element(presselement)).withDuration(ofSeconds(2))).release().perform();
         //the same validate with different way
         System.out.println(driver.findElementById("android:id/title").isDisplayed());
-        System.out.println(driver.findElementByAndroidUIAutomator("new UiSelector().enabled(true)"));
+        System.out.println(driver.findElementByAndroidUIAutomator("new UiSelector().enabled(true)")); //android code
     }
 }

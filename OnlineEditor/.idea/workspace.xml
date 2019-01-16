@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d1b50e9-322f-4ef4-9280-572b035d81b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FirstSelenium/.idea/FirstSelenium.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstSelenium/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstSelenium/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstSelenium/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../FirstSelenium/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AppiumTest/src/main/java/scroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTest/AppiumTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/AppiumTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTest/src/main/java/albelliEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/src/main/java/albelliEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTest/src/main/java/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/src/main/java/base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTest/src/main/java/gesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/src/main/java/gesture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/albelliEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/target/classes/albelliEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/target/classes/base.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bindings/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bindings/test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bindings/test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bindings/test2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SeleniumWithJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SeleniumWithJava/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/bindings/test2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
-              <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-185">
+            <state relative-caret-position="17">
               <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="e#1407#1408#0" expanded="true" />
@@ -113,10 +114,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="641" />
-    <option name="y" value="20" />
-    <option name="width" value="1945" />
-    <option name="height" value="830" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -126,6 +127,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,7 +186,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -292,7 +293,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.147651" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.14966443" />
       <window_info id="Structure" order="1" sideWeight="0.5007657" side_tool="true" weight="0.14323963" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,16 +434,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/test2.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-185">
+        <state relative-caret-position="17">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="e#1407#1408#0" expanded="true" />
@@ -450,10 +444,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test2.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/bindings/test2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
