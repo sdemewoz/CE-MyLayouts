@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83f3ee8b-9d47-4cd9-b23c-74d9330c524f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/scroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_11_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AddPhotoInToPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OpenPrintEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/keyboardEvents.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppiumTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AppiumTest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/albelliEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/albelliEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gesture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gesture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/albelliEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/albelliEditor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OnlineEditor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OnlineEditor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/albelliEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/scroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/scroll.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/albelliEditor.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/base.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/OpenPrintEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+            <state relative-caret-position="311">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,10 +40,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ElementSelectors.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AddPhotoInToPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+            <state relative-caret-position="402">
+              <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/keyboardEvents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,8 +66,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/swipe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+            <state relative-caret-position="442">
+              <caret line="26" column="148" selection-start-line="26" selection-start-column="148" selection-end-line="26" selection-end-column="148" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,32 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/gesture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/scroll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/albelliEditor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+            <state relative-caret-position="397">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,12 +107,17 @@
         <option value="$PROJECT_DIR$/src/main/java/ElementSelectors.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/AndroidUIAutomator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/swipe.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/base.java" />
-        <option value="$PROJECT_DIR$/src/main/java/scroll.java" />
         <option value="$PROJECT_DIR$/src/main/java/gesture.java" />
+        <option value="$PROJECT_DIR$/src/main/java/scroll.java" />
+        <option value="$PROJECT_DIR$/src/main/java/base.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Albelli/albelliEditor.java" />
         <option value="$PROJECT_DIR$/src/main/java/albelliEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Albelli/OpenPrintEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OpenPrintEditor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AddPhotoInToPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/swipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/keyboardEvents.java" />
       </list>
     </option>
   </component>
@@ -151,11 +144,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="width" value="1934" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -197,7 +189,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547657933817" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547933632306" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/io/appium/java-client/6.0.0-BETA4/java-client-6.0.0-BETA4.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -207,11 +199,14 @@
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitRepositories\AppiumTest\src\package" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GitRepositories\AppiumTest\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitRepositories\AppiumTest\src\package" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -226,9 +221,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.albelliEditor">
-    <configuration name="AndroidUIAutomator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AndroidUIAutomator" />
+  <component name="RunManager" selected="Application.keyboardEvents">
+    <configuration name="AddPhotoInToPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AddPhotoInToPage" />
       <module name="AppiumTest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -241,22 +236,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="albelliEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="albelliEditor" />
+    <configuration name="OpenPrintEditor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OpenPrintEditor" />
       <module name="AppiumTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gesture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gesture" />
+    <configuration name="keyboardEvents" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="keyboardEvents" />
       <module name="AppiumTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="swipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swipe" />
+    <configuration name="scroll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="scroll" />
       <module name="AppiumTest" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -264,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.albelliEditor" />
+        <item itemvalue="Application.keyboardEvents" />
+        <item itemvalue="Application.AddPhotoInToPage" />
+        <item itemvalue="Application.OpenPrintEditor" />
+        <item itemvalue="Application.scroll" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.swipe" />
-        <item itemvalue="Application.gesture" />
-        <item itemvalue="Application.AndroidUIAutomator" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547654925091</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test for albelli editor">
+      <created>1547657963405</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547657963405</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -303,10 +305,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="0" width="1547" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11140725" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14122394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,12 +317,41 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.633557" visible="true" weight="0.34236187" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.73489934" weight="0.23943663" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.633557" visible="true" weight="0.1991404" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.73489934" weight="0.48424068" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.3252149" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4919463" weight="0.90830946" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5080537" side_tool="true" weight="0.26203966" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295129" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48657718" weight="0.30552545" />
+      <window_info anchor="bottom" id="Problems" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.103564225" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19636853" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.633557" visible="true" weight="0.17765044" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.73489934" weight="0.48424068" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932885" weight="0.32719547" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4919463" weight="0.25460455" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4919463" weight="0.1833811" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5080537" side_tool="true" weight="0.26203966" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48657718" weight="0.30552545" />
@@ -329,15 +360,16 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.08208955" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.103564225" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new test for swipe" />
-    <option name="LAST_COMMIT_MESSAGE" value="new test for swipe" />
+    <MESSAGE value="test for albelli editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="test for albelli editor" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -412,16 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AndroidUIAutomator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="93" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/6.0.0-BETA4/java-client-6.0.0-BETA4.jar!/io/appium/java_client/FindsByAndroidUIAutomator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -446,43 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="71" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="67" selection-start-line="5" selection-start-column="67" selection-end-line="5" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/swipe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ElementSelectors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -493,20 +478,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/gesture.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/AndroidUIAutomator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="204">
+          <caret line="12" column="93" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/albelliEditor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/base.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="272">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Albelli/OpenPrintEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OpenPrintEditor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/gesture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AddPhotoInToPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/swipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="148" selection-start-line="26" selection-start-column="148" selection-end-line="26" selection-end-column="148" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/keyboardEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
