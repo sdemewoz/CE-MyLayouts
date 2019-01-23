@@ -1,8 +1,8 @@
+import PageObjects.Home;
+import PageObjects.WaitForElements;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.net.MalformedURLException;
 
@@ -12,11 +12,12 @@ public class AddPhotoInToPage {
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
         AndroidDriver driver = base.Capabilities();
 
-        WebElement element = driver.findElementByAndroidUIAutomator("text(\"SHOP AT ALBELLI\")");
-        WebDriverWait wait = new WebDriverWait(driver, 30);
-        wait.until(ExpectedConditions.visibilityOf(element));
+        Home homepage = new Home(driver);
+        WaitForElements element = new WaitForElements();
+        element.WaitForElement(driver, homepage.ShopAtAlbelli);
+        homepage.ClickShopAtAlbelli();
 
-        element.click();
+       // element.click();
         driver.findElementByAndroidUIAutomator("text(\"SKIP TOUR\")").click();
         driver.findElementByAndroidUIAutomator("text(\"Photo books\")").click();
         driver.findElementByAndroidUIAutomator("text(\"13 x 10 cm\")").click();

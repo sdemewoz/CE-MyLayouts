@@ -20,7 +20,7 @@ public class base {
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 2 XL");
         capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
         driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), capabilities);
-         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         return driver;
     }
 }
