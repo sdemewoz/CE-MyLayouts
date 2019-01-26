@@ -6,18 +6,23 @@ import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-public class PrintSize {
-    public PrintSize(AppiumDriver driver)
+public class ProductSizes {
+    public ProductSizes(AppiumDriver driver)
     {
         PageFactory.initElements(new AppiumFieldDecorator(driver), this);
     }
 
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Regular prints\")")
-    public WebElement Regular;
+    public WebElement RegularPrint;
 
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Square prints\")")
-    public WebElement Square;
+    public WebElement SquarePrint;
 
     @AndroidFindBy(uiAutomator = "new UiSelector().text(\"Retro prints\")")
-    public WebElement Retro;
+    public WebElement RetroPrint;
+
+    @AndroidFindBy(uiAutomator = "new UiSelector().text(\"13 x 10 cm\")")
+    public WebElement LandscapeS;
+
+
 }

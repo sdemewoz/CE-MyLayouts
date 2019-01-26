@@ -1,8 +1,6 @@
-import PageObjects.Home;
-import PageObjects.WaitForElements;
+import PageObjects.*;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.WebElement;
 
 import java.net.MalformedURLException;
 
@@ -17,31 +15,36 @@ public class AddPhotoInToPage {
         element.WaitForElement(driver, homepage.ShopAtAlbelli);
         homepage.ClickShopAtAlbelli();
 
-       // element.click();
-        driver.findElementByAndroidUIAutomator("text(\"SKIP TOUR\")").click();
-        driver.findElementByAndroidUIAutomator("text(\"Photo books\")").click();
-        driver.findElementByAndroidUIAutomator("text(\"13 x 10 cm\")").click();
+        TourPage tour = new TourPage(driver);
+        tour.Skip.click();
 
-        //if permission popup displayed, click allow
-        WebElement button = driver.findElementByAndroidUIAutomator("text(\"ALLOW\")");
-        if (button.isDisplayed()) {
-            button.click();
-        }
+        ProductSelection products = new ProductSelection(driver);
+        products.clickPhotoBooks();
 
-        driver.findElementByAndroidUIAutomator("text(\"Camera\")").click();
-        driver.findElementById("nl.albumprinter.smartphone.editor:id/import_image").click();
-        driver.findElementByXPath("//android.widget.TextView[@content-desc='Add']").click();
-        driver.findElementByAndroidUIAutomator("text(\"icon-pencil\")").click();
-        driver.findElementByAndroidUIAutomator("text(\"NEXT\")").click();
-        driver.findElementByAndroidUIAutomator("text(\"PHOTOS\")").click();
+        ProductSizes sizes = new ProductSizes(driver);
+        sizes.LandscapeS.click();
+
+        AccessPermission permission = new AccessPermission(driver);
+        permission.clickAllowPermision();
+
+       ImportPhotos importPhotos = new ImportPhotos(driver);
+       importPhotos.clickCamera();
+
+        importPhotos.Image1.click();
+        importPhotos.AddButton.click();
+
+        Preferences start = new Preferences(driver);
+        start.StartEmpty.click();
+        start.NextButton.click();
+
+        PhotoBookPage photoBookPage = new PhotoBookPage(driver);
+        photoBookPage.PhotoTab.click();
 
         //use swapping
         TouchAction t =new TouchAction(driver);
-        WebElement photo =	driver.findElementByXPath("//android.view.View[@bounds='[357,2380][672,2695]']"); //image doesnt have proper value, id or text
-        WebElement page =	driver.findElementByXPath("//android.view.View[@bounds='[420,353][1029,672]']");
-        t.longPress(element(photo)).moveTo(element(page)).release().perform(); //if we want to logpress for amount of times, then we should use longpressoption
+        t.longPress(element(photoBookPage.Image_1)).moveTo(element(photoBookPage.Page_1)).release().perform(); //if we want to logpress for amount of times, then we should use longpressoption
 
-        //verify that badge is visible on the image
-        driver.findElementByAndroidUIAutomator("text(\"1\")").isDisplayed();
+        //verify that badge is visible on the Image1
+        photoBookPage.Badge_1.isDisplayed();
     }
 }

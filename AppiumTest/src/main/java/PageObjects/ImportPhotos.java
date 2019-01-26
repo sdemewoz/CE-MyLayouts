@@ -16,8 +16,14 @@ public class ImportPhotos {
     public WebElement Camera;
 
     @AndroidFindBy(id = "nl.albumprinter.smartphone.editor:id/import_image")
-    public WebElement image;
+    public WebElement Image1;
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@content-desc='Add']")
     public WebElement AddButton;
+
+
+    public void clickCamera()
+    {
+        Camera.click();
+    }
 }

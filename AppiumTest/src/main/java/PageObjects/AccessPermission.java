@@ -14,4 +14,12 @@ public class AccessPermission {
 
     @AndroidFindBy(uiAutomator = ( "new UiSelector().text(\"ALLOW\")"))
     public WebElement Allow;
+
+    //if permission popup displayed, click allow
+    public void clickAllowPermision(){
+        if (Allow.isDisplayed()) {
+            Allow.click();
+        }
+    }
+
 }
