@@ -20,7 +20,7 @@ public class test2 {
 
     WebDriver driver;
 
-    public void LoginIn(String username, String password) throws InterruptedException {
+    public void LoginIn(String username, String password) {
 
 //        try {
 //            Thread.sleep(6000);
@@ -61,10 +61,15 @@ public class test2 {
 //        WebElement albelli;
 //        albelli= wait.until(ExpectedConditions.(By.id("addPhotoToGalleryButton")));
 
-        WebElement button = driver.findElement(By.cssSelector("div[class*='close icon-exit']"));
+//        //to click away resnap popup
+//        WebElement button = driver.findElement(By.cssSelector("div[class*='close icon-exit']"));
+//        Actions action = new Actions(driver);
+//        action.moveToElement(button).click().build().perform();
+
+        //to click away tooltip
+        WebElement button = driver.findElement(By.cssSelector("div[class*='icon-exit']"));
         Actions action = new Actions(driver);
         action.moveToElement(button).click().build().perform();
-
 //        String pseudo = ((JavascriptExecutor)driver)
 //                .executeScript("return window.getComputedStyle(arguments[0], ':before').getPropertyValue('icon-exit');",button).toString();
 //       System.out.println(pseudo);
@@ -76,4 +81,6 @@ public class test2 {
         Assert.assertTrue("Button is not enabled", verify.isEnabled());
         //driver.close();
     }
+
+
 }
