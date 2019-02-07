@@ -2,44 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d1b50e9-322f-4ef4-9280-572b035d81b0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AppiumTest/.idea/AppiumTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/nasa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bindings/filterPicture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/FIlterPicture.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/src/ApiDemos-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/src/main/resources/ApiDemos-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/src/main/java/AddPhotoInToPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/src/main/java/AddPhotoInToPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/src/main/java/OpenPrintEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/src/main/java/OpenPrintEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/src/main/java/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/src/main/java/base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/src/release-4.5.4.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../AppiumTest/src/main/resources/release-4.5.4.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/AddPhotoInToPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/AndroidUIAutomator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/ElementSelectors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/META-INF/AppiumTest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/OpenPrintEditor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/AccessPermission.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/Home.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/ImportPhotos.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/PhotoBookPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/Preferences.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/PrintEditorPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/ProductSelection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/ProductSizes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/TourPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/PageObjects/WaitForElements.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/base.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/gesture.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/keyboardEvents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/scroll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppiumTest/target/classes/swipe.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MobileTest/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileTest/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MobileTest/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../MobileTest/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bindings/test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bindings/test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bindings/test2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bindings/test2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bindings/filterPicture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bindings/filterPicture.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/FIlterPicture.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -80,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/bindings/test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="66" column="65" lean-forward="true" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
+            <state relative-caret-position="884">
+              <caret line="66" column="65" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,12 +56,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/bindings/filterPicture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="485">
+              <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1677#1678#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -146,10 +108,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1664" />
-    <option name="y" value="-202" />
-    <option name="width" value="1936" />
-    <option name="height" value="1043" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -159,8 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,7 +209,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549474261400" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549570553457" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -335,34 +297,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__FIlterPicture - 2019.02.06 at 17h 55m 28s.xml">
-      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__FIlterPicture - 2019.02.06 at 17h 56m 31s.xml">
-      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__FIlterPicture - 2019.02.06 at 17h 58m 19s.xml">
-      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__FIlterPicture - 2019.02.06 at 18h 01m 12s.xml">
-      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__FIlterPicture - 2019.02.06 at 18h 04m 54s.xml">
-      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__FIlterPicture - 2019.02.06 at 18h 06m 11s.xml">
-      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__FIlterPicture - 2019.02.06 at 18h 09m 26s.xml">
-      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__FIlterPicture - 2019.02.06 at 18h 17m 13s.xml">
-      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__FIlterPicture - 2019.02.06 at 18h 19m 22s.xml">
-      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Feature__FIlterPicture - 2019.02.06 at 18h 20m 18s.xml">
+      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__FIlterPicture - 2019.02.07 at 20h 57m 07s.xml">
+      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__FIlterPicture - 2019.02.07 at 20h 58m 01s.xml">
+      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__FIlterPicture - 2019.02.07 at 20h 58m 35s.xml">
+      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__FIlterPicture - 2019.02.07 at 21h 01m 08s.xml">
+      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__FIlterPicture - 2019.02.07 at 21h 11m 21s.xml">
+      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__FIlterPicture - 2019.02.07 at 21h 12m 55s.xml">
+      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__FIlterPicture - 2019.02.07 at 21h 14m 25s.xml">
+      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__FIlterPicture - 2019.02.07 at 21h 14m 56s.xml">
+      <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__FIlterPicture - 2019.02.07 at 21h 16m 13s.xml">
       <configuration name="Feature: FIlterPicture" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -379,10 +341,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-210" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.1748401" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4992343" visible="true" weight="0.17718121" />
       <window_info id="Structure" order="1" sideWeight="0.5007657" side_tool="true" weight="0.14323963" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -391,7 +353,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.5011136" side_tool="true" weight="0.14390896" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9317697" weight="0.11375948" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.9317697" weight="0.28186968" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.1419285" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -401,7 +363,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.12567714" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.29685807" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49733475" weight="0.18959913" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49733475" weight="0.18838526" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -551,25 +513,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/FIlterPicture.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reports/cucumber-html-report/jquery-1.8.2.min.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bindings/test2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="66" column="65" lean-forward="true" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reports/cucumber-html-report/report.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -589,14 +534,29 @@
     <entry file="file://$PROJECT_DIR$/OnlineEditor.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/bindings/filterPicture.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/FIlterPicture.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="187">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bindings/test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="66" column="65" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1677#1678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bindings/filterPicture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="121" column="22" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

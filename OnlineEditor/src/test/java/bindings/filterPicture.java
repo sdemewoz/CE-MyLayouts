@@ -24,11 +24,6 @@ public class filterPicture {
     WebDriver driver;
     public void LoginIn(String username, String password) {
 
-//        try {
-//            Thread.sleep(6000);
-//        } catch (InterruptedException ignored) {
-//        }
-
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector(".dialog-window.auth-window iframe")));
 
@@ -66,30 +61,20 @@ public class filterPicture {
     @And("I add a picture and select")
     public void iAddAPictureAndSelect() throws InterruptedException, AWTException {
 
-//        File imageDir = new File("src/main/resources");
-//        File image = new File(imageDir, "nasa.jpg");
+//        File imageDir = new File("src/main/resources/nasa.jpg");
 //        String path = imageDir.getAbsolutePath();
-//        //WebElement upload = driver.findElement(By.id("addPhotoToGalleryButton"));
-//        WebElement upload = driver.findElement(By.xpath("//*[@id=\"addPhotoToGalleryButton\"]/div"));
-//        upload.click();
+//        WebElement upload = driver.findElement(By.cssSelector("addPhotoToGalleryButton"));
 //        upload.sendKeys(path);
-//"//*[@id="addPhotoToGalleryButton"]/div"
-
-//        Actions action = new Actions(driver);
-//        action.sendKeys("C:\\Users\\sdemewoz\\Downloads\\nasa1.jpg").build().perform();
-
-//        Actions actions = new Actions(driver);
-//        actions.moveToElement(upload);
-//        actions.click();
-//        actions.sendKeys(path).build().perform();
-//        actions.sendKeys(Keys.ENTER).build().perform();
 
 
         Robot robot = new Robot();
         driver.findElement(By.id("addPhotoToGalleryButton")).click();
         robot.setAutoDelay(1000);
 
-        StringSelection stringToCopy = new StringSelection("C:\\Users\\sdemewoz\\Desktop\\nasa1.jpg");
+        File imageDir = new File("src/main/resources/nasa.jpg");
+        String path = imageDir.getAbsolutePath();
+
+        StringSelection stringToCopy = new StringSelection(path);
         Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringToCopy, null);
         robot.setAutoDelay(1000);
 
@@ -134,6 +119,7 @@ public class filterPicture {
         //click on rotate option
         driver.findElement(By.id("rotateButton")).click();
 
+        driver.quit();
     }
 }
 
