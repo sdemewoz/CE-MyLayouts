@@ -1,5 +1,7 @@
 package bindings;
 
+import CommonClass.Login;
+import CommonClass.UploadPicture;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -10,11 +12,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.naming.Binding;
 import java.awt.*;
-import java.awt.datatransfer.StringSelection;
-import java.awt.dnd.DragGestureEvent;
-import java.awt.event.KeyEvent;
 import java.io.File;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -22,7 +20,9 @@ import java.util.concurrent.TimeUnit;
 public class filterPicture {
 
     WebDriver driver;
-    public void LoginIn(String username, String password) {
+
+
+    public void Login(String username, String password) {
 
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(By.cssSelector(".dialog-window.auth-window iframe")));
@@ -30,6 +30,13 @@ public class filterPicture {
         driver.findElement(By.id("Email")).sendKeys(username);
         driver.findElement(By.id("Password")).sendKeys(password);
         driver.findElement(By.id("loginButton")).click();
+    }
+
+    public void UploadPicture(String imagePath) {
+        File imageDir = new File(imagePath);
+        String path = imageDir.getAbsolutePath();
+        WebElement upload = driver.findElement(By.cssSelector(".simple-editor .file-reference input"));
+        upload.sendKeys(path);
     }
 
     @Given("I open albelli websites")
@@ -40,8 +47,8 @@ public class filterPicture {
         driver.get("https://editor.albelli.nl/html5/?articleType=PhotoBook&papId=PAP_347#/editor");
     }
     @And("I login with {string} and {string} credencials")
-    public void iLoginWithAndCredencials(String arg0, String arg1) {
-        LoginIn("seniselam21@gmail.com", "seniselam");
+    public void iLoginWithAndCredencials(String username, String password) {
+        Login(username, password);
     }
 
     @When("I dismis the tootltip")
@@ -51,7 +58,6 @@ public class filterPicture {
         driver.findElement(By.id("upsellConfirmationButton")).click();
 
         Thread.sleep(1000);
-
         //to click away tooltip
         WebElement button = driver.findElement(By.cssSelector("div[class*='icon-exit']"));
         Actions action = new Actions(driver);
@@ -61,33 +67,8 @@ public class filterPicture {
     @And("I add a picture and select")
     public void iAddAPictureAndSelect() throws InterruptedException, AWTException {
 
-//        File imageDir = new File("src/main/resources/nasa.jpg");
-//        String path = imageDir.getAbsolutePath();
-//        WebElement upload = driver.findElement(By.cssSelector("addPhotoToGalleryButton"));
-//        upload.sendKeys(path);
-
-
-        Robot robot = new Robot();
-        driver.findElement(By.id("addPhotoToGalleryButton")).click();
-        robot.setAutoDelay(1000);
-
-        File imageDir = new File("src/main/resources/nasa.jpg");
-        String path = imageDir.getAbsolutePath();
-
-        StringSelection stringToCopy = new StringSelection(path);
-        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringToCopy, null);
-        robot.setAutoDelay(1000);
-
-        robot.keyPress(KeyEvent.VK_CONTROL);
-        robot.keyPress(KeyEvent.VK_V);
-
-        robot.keyRelease(KeyEvent.VK_CONTROL);
-        robot.keyRelease(KeyEvent.VK_V);
-
-        robot.setAutoDelay(1000);
-
-        robot.keyPress(KeyEvent.VK_ENTER);
-        robot.keyRelease(KeyEvent.VK_ENTER);
+          UploadPicture("src/main/resources/nasa.jpg");
+          UploadPicture("src/main/resources/nasa1.jpg");
     }
 
     @Then("I see edit options")
@@ -118,7 +99,6 @@ public class filterPicture {
 
         //click on rotate option
         driver.findElement(By.id("rotateButton")).click();
-
         driver.quit();
     }
 }
