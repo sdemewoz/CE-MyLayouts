@@ -30,6 +30,8 @@ public class filterPicture {
         driver.findElement(By.id("Email")).sendKeys(username);
         driver.findElement(By.id("Password")).sendKeys(password);
         driver.findElement(By.id("loginButton")).click();
+
+        driver.switchTo().defaultContent();
     }
 
     public void UploadPicture(String imagePath) {
